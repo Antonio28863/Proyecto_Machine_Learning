@@ -29,6 +29,6 @@ En el modelo de clasificación vemos que tenemos 900 datos para aprobados y 100 
 - modelo_regresion.pkl (Modelo de regresión entrenado)
 
 # Autor: 
-Antonio Fernández
+Antonio Fernández  
 @antonio28863
 
