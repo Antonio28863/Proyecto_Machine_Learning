@@ -7,6 +7,7 @@ Creamos un modelo de regresión para predecir la nota final y un modelo de clasi
 Primero hacemos un EDA (01_EDA.ipynb) para ver qué datos tenemos. En él hacemos una vista previa de los datos, vemos los nulos que hay y si hay inconsistencias (aprobados con notas menores a 60 o suspensos con notas mayores).  
 
 Iniciamos el preprocesamiento (02_Preprocesamiento.ipynb) cargando el archivo con los datos ya analizados. En las columnas categóricas con valores nulos ponemos desconocido y en horas de sueño imputamos con la mediana.  
+
 Creamos una copia para regresión en la cual usamos one_hot_encoder para las columnas nivel_dificultad y tiene_tutor y target_encoding para horario_estudio y estilo_aprendizaje. En target_encoding usamos smoothing para suavizar el impacto de los datos desconocidos, ya que hay pocos. Aplicamos MinMaxScaler para igualar la importancia de los datos. Guardamos el archivo df_regresion.csv.  
 
 Para clasificación hacemos lo mismo que en regresión cambiando la variable objetivo de nota final a aprueba y lo guardamos df_clasificacion.csv.  
