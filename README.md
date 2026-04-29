@@ -3,6 +3,7 @@ Construcción de un modelo de regresión y clasificación.
 
 # Descripción:
 Creamos un modelo de regresión para predecir la nota final y un modelo de clasificación para predecir aprobados y suspensos, a partir de unos datos de estudiantes.  
+
 Primero hacemos un EDA (01_EDA.ipynb) para ver qué datos tenemos. En él hacemos una vista previa de los datos, vemos los nulos que hay y si hay inconsistencias (aprobados con notas menores a 60 o suspensos con notas mayores).  
 
 Iniciamos el preprocesamiento (02_Preprocesamiento.ipynb) cargando el archivo con los datos ya analizados. En las columnas categóricas con valores nulos ponemos desconocido y en horas de sueño imputamos con la mediana.  
